@@ -1,0 +1,32 @@
+
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>No Data Demons, Flawless Performance!</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <h1>No Data Demons, Flawless Performance!</h1>
+  <div id="grid">
+    <div class="cell" id="top_left">유령 데몬 (The Ghost Demon)</div>
+    <div class="cell" id="top_right">해독 불가 데몬 (The 'Scribble' Demon)</div>
+    <div class="cell" id="middle_left">지연 데몬 (The Delay Demon)</div>
+    <div class="cell" id="middle_right">복붙 데몬 (The Copy-Paste Demon)</div>
+    <div class="cell" id="bottom_left">오타 데몬 (The Typo Demon)</div>
+    <div class="cell" id="bottom_right">누락 데몬 (The 'Missing Piece' Demon)</div>
+  </div>
+
+  <button id="reset">Reset</button>
+
+  <div id="popup" class="hidden">
+    <h2>🎉 You've Hunted the Data Demon! 🎉</h2>
+    <button onclick="closePopup()">닫기</button>
+  </div>
+
+  <canvas id="confetti"></canvas>
+  <script src="https://cdn.jsdelivr.net/npm/canvas-confetti@1.6.0/dist/confetti.browser.min.js"></script>
+  <script src="script.js"></script>
+</body>
+</html>
